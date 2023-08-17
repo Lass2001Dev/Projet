@@ -3,405 +3,686 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automobile TN | Lass Dev</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/color.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/skins/color.css" class="alternate-style" title="color" disabled>
-    <link rel="stylesheet" href="css/skins/color1.css" class="alternate-style" title="color1" disabled>
-    <link rel="stylesheet" href="css/skins/color2.css" class="alternate-style" title="color2" disabled>
-    <link rel="stylesheet" href="css/skins/color4.css" class="alternate-style" title="color4" disabled>
-    <link rel="stylesheet" href="css/skins/color5.css" class="alternate-style" title="color5" disabled >
-    <link rel="stylesheet" href="css/style-switcher.css">
-
-
-
-
+    <title>Food Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-
-    <div class="main-container">
-        <div class="aside"> 
-            <div class="logo">
-                <a href="#"><span>C</span>ars</a>
-            </div> 
-            <div class="nav-toggler">
-                <span></span>
-            </div>
-            <ul class="nav">
-                <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
-                <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
-                <li><a href="#cars"><i class="fa fa-car"></i>Cars</a></li>
-                <li><a href="#contact"><i class="fa fa-comments"></i>contact</a></li>
-
-            </ul>
+  <section id="Home">
+    <nav>
+        <div class="logo">
+            <img src="logo.png">
         </div>
 
-        <div class="main-content">
-            <section class="home section " id="home">
-               <div class="container">
-                <div class="row">
-                    <div class="home-info padd-15">
-                        <h3 class="hello">Welcome To The Page <span class="name">Cars</span></h3>
-                        <h3 class="myprofession">We Have The<span class="typing"> Quality of cars</span></h3>
-                        <p>We take pride in keeping our customers and community safe on the road.</p>
-                        <a href="#contact" class="btn-hire-me">More About Us</a>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Menu">Menu</a></li>
+            <li><a href="#Gallary">Gallary</a></li>
+            <li><a href="#Review">Review</a></li>
+            <li><a href="#Order">Order</a></li>
 
-                    </div>
-                    <div class="home-img padd-15" >
-                        <img src="images/v.jpg" alt="">
-                    </div>
-                </div>
-               </div>
-            </section>
+        </ul>
 
+        <div class="icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
 
-            <section class="about section" id="about">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>About Us</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="about-content padd-15">
-                            <div class="about-text padd-15">
-                                <h3>We Are The Best Page <span> Of Cars </span></h3>
-                                <p>Maintaining a fleet takes expertise, knowledge, and time. Vehicle fleets are a valuable asset to any business using them, keeping all your vehicles safe and reliable as possible should be a top priority.</p>
-                            </div>
-                            <div class="row">
-                                <div class="personal-info padd-15">
-                                    <div class="row">
-                                        <div class="info-item padd-15">
-                                            <p>Open : <span> 22 November 2001</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Subscriber: <span> 5560</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Website : <span> www.cars.com</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Email : <span> cars@gmail.com</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Location : <span>Strasbourg</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Phone : <span> +216 22 222 10</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Number Cars : <span> 45 125</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Open : <span> 8:00 PM To 23:00</span></p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="buttons padd-15">
-                                            <a href="#" class="btn-hire-me"> Download FT</a>
-                                            <a href="#contact" class="btn-hire-me">Hire Us</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skills padd-15">
-                                    <div class="row">
-                                        <div class="skill-item padd-15">
-                                            <h5>Quality</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 97%;"></div>
-                                                <div class="skill-percent">97%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>Experience</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 85%;"></div>
-                                                <div class="skill-percent">85%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>Assurance</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 100%;"></div>
-                                                <div class="skill-percent">100%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>Diangnostic</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 90%;"></div>
-                                                <div class="skill-percent">90%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>maintaining</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 67%;"></div>
-                                                <div class="skill-percent">67%</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                        </div>
-                        </div>
-                    </div>
-                   
-                </div>
-            </section>
-
-            <section class="service section" id="services">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Services</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-
-                            <div class="icon">
-                                <i class="fa fa-car"></i>
-                            </div>
-                            <h4>Experienced Mechanics</h4>
-                            <p>The team at Ina Auto Service has over 50 years of experience working on all types of vehicles. We’re dedicated to maintaining your vehicle, keeping you and your passengers safe on the road.</p>
-
-                        </div>
-                    </div>
-                    <div class="service-item padd-15">
-                        <div class="service-item-inner">
-
-                        <div class="icon">
-                            <i class="fa fa-laptop-code"></i>
-                        </div>
-                        <h4>Auto Detailing</h4>
-                        <p>Get professional automotive detailing services from Ina Auto Service Centre in Langford!
-
-                            With the wide range of vehicles we sell at Ina Motors, our professional detailing team at Ina Auto Service Centre has the experience to tackle thoroughly cleaning all your vehicles.</p>
-
-                    </div>
-                </div>
-                <div class="service-item padd-15">
-                    <div class="service-item-inner">
-
-                    <div class="icon">
-                        <i class="fa fa-oil-can"></i>
-                    </div>
-                    <h4>Oil Changes</h4>
-                    <p>An oil and filter replacement is one of many preventative maintenance services that help promote maximum vehicle performance while extending the life of your vehicle. Oil is responsible for lubricating the working components inside your vehicle’s engine while reducing the amount of friction between them.</p>
-
-                </div>
-                </div>
-                <div class="service-item padd-15">
-                    <div class="service-item-inner">
-
-                    <div class="icon">
-                        <i class="fa fa-exchange"></i>
-                    </div>
-                    <h4>Exhaust Install</h4>
-                    <p>The exhaust system on your vehicle has a few very important jobs. It is made of pipes and tubing designed to maximize your vehicle’s performance and efficiency. Your vehicle’s exhaust system is also directing emissions away from the vehicle, as well, reducing the amount of pollutants released into the environment.</p>
-
-                </div>
-                </div>
-                <div class="service-item padd-15">
-                    <div class="service-item-inner">
-
-                    <div class="icon">
-                        <i class="fa fa-car-tunnel"></i>
-                    </div>
-                    <h4>Wheel Alignments</h4>
-                    <p>Three main adjustments contribute to performing a wheel alignment. Caster, Camber and Toe.</p>
-
-                </div>
-            </div>
-            <div class="service-item padd-15">
-                <div class="service-item-inner">
-
-                <div class="icon">
-                    <i class="fa fa-wheelchair"></i>
-                </div>
-                <h4>
-                    Suspension</h4>
-                <p>The steering and suspension system on your vehicle is responsible for maintaining comfortable riding conditions, proper steering, handling and driver performance. Suspension system components, like coil springs and shock absorbers, help to dampen the impact of bumps or uneven roads. Additional components like ball joints, bushings and control arms may vary in configurations and styles, but just the same, all suspension system components will weaken over time through stress, even with normal driving conditions.</p>
-
-            </div>
         </div>
-        </div>
-        </div>
-            </section>
+    </nav>
 
-            <section class="car section" id="cars">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Cars</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="car-heading padd-15">
-                            <h2>Cars Available :</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="car-item padd-15">
-                            <div class="car-item-inner shadow dark">
-                                <div class="car-img">
-                                    <img src="images/v1.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="car-item padd-15">
-                            <div class="car-item-inner shadow dark">
-                                <div class="car-img">
-                                    <img src="images/v2.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="car-item padd-15">
-                            <div class="car-item-inner shadow dark">
-                                <div class="car-img">
-                                    <img src="images/v3.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="car-item padd-15">
-                            <div class="car-item-inner shadow dark">
-                                <div class="car-img">
-                                    <img src="images/v4.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                       
-                        <div class="car-item padd-15">
-                            <div class="car-item-inner shadow dark">
-                                <div class="car-img">
-                                    <img src="images/v6.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="car-item padd-15">
-                            <div class="car-item-inner shadow dark">
-                                <div class="car-img">
-                                    <img src="images/v7.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="car-item padd-15">
-                            <div class="car-item-inner shadow dark">
-                                <div class="car-img">
-                                    <img src="images/v8.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-            </section>
-            <section class="contact section" id="contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Contact Us</h2>
-                        </div>
-                    </div>
-                    <h3 class="contact-title padd-15">Have You Any Question ??</h3>
-                    <h4 class="contact-sub-title padd-15">WE ARE HERE FOR YOU !! </h4>
-                    <div class="row">
-                        <div class="contact-info-item padd-15">
-                            <div class="icon">
-                                <i class="fa fa-phone"></i>
-                            </div>
-                            <h4>Call Us On </h4>
-                            <p>+216 22 222 10</p>
-                        </div>
-                        <div class="contact-info-item padd-15">
-                            <div class="icon">
-                                <i class="fa fa-map-marker-alt"></i>
-                            </div>
-                            <h4>Office </h4>
-                            <p>Strasbourg</p>
-                        </div>
-                        <div class="contact-info-item padd-15">
-                            <div class="icon">
-                                <i class="fa fa-envelope"></i>
-                            </div>
-                            <h4>Email </h4>
-                            <p>cars@gmail.com</p>
-                        </div>
-                        <div class="contact-info-item padd-15">
-                            <div class="icon">
-                                <i class="fa fa-globe-europe"></i>
-                            </div>
-                            <h4>Website</h4>
-                            <p>www.cars.com</p>
-                        </div>
-                    </div>
-                    <h3 class="contact-title padd-15">SEND US AN EMAIL</h3>
-                    <h4 class="contact-sub-title padd-15">WE ARE VERY RESPONSIVE TO MESSAGES</h4>
-                    <div class="row">
-                        <div class="contact-form padd-15">
-                            <div class="row">
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Name">
-                                    </div>
-                                </div>
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Subject">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                      <textarea name="" class="form-control" id="" placeholder="Message"></textarea>                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <button type="submit" class="btn-hire-me">Send Message</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+    <div class="main">
+        <div class="men_text">
+            <h1>Get Good <span>Food</span><br>Now</h1>
+        </div>
+        <div class="main_image">
+            <img src="humberger.png">
+        </div>
+    </div>
+
+    <p>
+        The World’s 50 Best Restaurants has reflected and celebrated the richness and diversity of the world's culinary landscape since 2002. 
+        Thanks to its panel of 1,080 culinary experts, as well as its structured and audited voting procedure, 
+        the annual list of the world's finest restaurants provides a snapshot of some of the best destinations for unique culinary experiences, 
+        in addition to being a barometer for global gastronomic trends.
+    </p>
+
+    <div class="main_btn">
+        <a href="#">Order Now <i class="fa-solid fa-angle-right"></i> </a>
+    </div>
+
+  </section>  
+
+  <!-- aboutSection -->
+
+  <div class="about" id="About">
+    <div class="about_main">
+        <div class="image">
+            <img src="anh-nguyen-kcA-c3f_3FE-unsplash-removebg-preview.png">
+        </div>
+
+
+        <div class="about_text">
+            <h1><span>About</span>Us</h1>
+            <h3>Why Choose Us ??</h3>
+            <p>
+                The World’s 50 Best Restaurants has reflected and celebrated the richness and diversity of the world's culinary landscape since 2002. 
+        Thanks to its panel of 1,080 culinary experts, as well as its structured and audited voting procedure, 
+        the annual list of the world's finest restaurants provides a snapshot of some of the best destinations for unique culinary experiences, 
+        in addition to being a barometer for global gastronomic trends.
+            </p>
         </div>
 
     </div>
 
+    <a href="#" class="about_btn">Order Now</a>
+  </div>
 
-    <div class="style-switcher">
-        <div class="style-switcher-toggler s-icon">
-            <i class="fas fa-cog fa-spin">   </i>
+
+
+
+  <!-- Menu -->
+
+  <div class="menu" id="Menu">
+
+
+    <h1>Our <span>Menu</span></h1>
+    <div class="menu_box">
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="pizza.jpg">
+            </div>
+
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Pizza</h2>
+                <p>
+                    Thanks to its panel of 1,080 culinary experts
+                </p>
+                <h3>$ 15.00</h3>
+
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>
+
+
         </div>
-        <div class="day-night s-icon">
-            <i class="fas"></i>
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="pate.jpg">
+            </div>
+
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Pasta</h2>
+                <p>
+                    Thanks to its panel of 1,080 culinary experts
+                </p>
+                <h3>$ 25.00</h3>
+
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>
+
+
         </div>
-        <h4>Theme Colors</h4>
-        <div class="colors">
-            <span class="color" onclick="setActiveStyle('color')"></span>
-            <span class="color1" onclick="setActiveStyle('color1')"></span>
-            <span class="color2" onclick="setActiveStyle('color2')"></span>
-            <span class="color4" onclick="setActiveStyle('color4')"></span>
-            <span class="color5" onclick="setActiveStyle('color5')"></span>
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="poulet.jpg">
+            </div>
+
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Chicken</h2>
+                <p>
+                    Thanks to its panel of 1,080 culinary experts
+                </p>
+                <h3>$ 22.00</h3>
+
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>
+
+
+        </div>
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="coca.jpg">
+            </div>
+
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Soda</h2>
+                <p>
+                    Thanks to its panel of 1,080 culinary experts
+                </p>
+                <h3>$ 2.00</h3>
+
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>
+
+
+        </div>
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="farcie.jpg">
+            </div>
+
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Farcie </h2>
+                <p>
+                    Thanks to its panel of 1,080 culinary experts
+                </p>
+                <h3>$ 12.00</h3>
+
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>
+
+
+        </div>
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="frites.jpg">
+            </div>
+
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Potatos</h2>
+                <p>
+                    Thanks to its panel of 1,080 culinary experts
+                </p>
+                <h3>$ 6.00</h3>
+
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>
+
+
+        </div>
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="hotdog.jpg">
+            </div>
+
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Hot Dog</h2>
+                <p>
+                    Thanks to its panel of 1,080 culinary experts
+                </p>
+                <h3>$ 15.00</h3>
+
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>
+
+
+        </div>
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="redbull.jpg">
+            </div>
+
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Red Bull</h2>
+                <p>
+                    Thanks to its panel of 1,080 culinary experts
+                </p>
+                <h3>$ 4.00</h3>
+
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>
+
+
+        </div>
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="lasagne.jpg">
+            </div>
+
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Lasagne</h2>
+                <p>
+                    Thanks to its panel of 1,080 culinary experts
+                </p>
+                <h3>$ 18.00</h3>
+
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>
+
+
+        </div>
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="turc.jpg">
+            </div>
+
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Pizza Turque</h2>
+                <p>
+                    Thanks to its panel of 1,080 culinary experts
+                </p>
+                <h3>$ 20.00</h3>
+
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>
+
+
+        </div>
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="94666_w1024h576c1cx2689cy1920.jpg">
+            </div>
+
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Salade</h2>
+                <p>
+                    Thanks to its panel of 1,080 culinary experts
+                </p>
+                <h3>$ 10.00</h3>
+
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>
+
+
+        </div>
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="escalope.jpg">
+            </div>
+
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Plat</h2>
+                <p>
+                    Thanks to its panel of 1,080 culinary experts
+                </p>
+                <h3>$ 15.00</h3>
+
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>
+
 
         </div>
     </div>
+  </div>
 
-    <script src="js/script.js"></script>
-    <script src="js/style-switcher.js"></script>
+
+
+  <!-- Gallary -->
+  <div class="gallary" id="Gallary">
+    <h1>Our <span>Gallary</span></h1>
+    <div class="gallary_image_box">
+        <div class="gallary_image">
+        <img src="dessert1.jpg">
+        <h3>Dessert</h3>
+        <p> in addition to being a barometer for global gastronomic trends.</p>
+            <a href="#" class="gallary_btn">Order Now</a>
+        </div>
+        <div class="gallary_image">
+            <img src="dessert2.jpg">
+            <h3>Dessert</h3>
+            <p>
+                in addition to being a barometer for global gastronomic trends.</p>
+                <a href="#" class="gallary_btn">Order Now</a>
+            </div>
+            <div class="gallary_image">
+                <img src="dessert3.jpg">
+                <h3>Dessert</h3>
+                <p> in addition to being a barometer for global gastronomic trends.</p>
+                    <a href="#" class="gallary_btn">Order Now</a>
+                </div>
+                <div class="gallary_image">
+                    <img src="dessert4.jpg">
+                    <h3>Dessert</h3>
+                    <p> in addition to being a barometer for global gastronomic trends.</p>
+                        <a href="#" class="gallary_btn">Order Now</a>
+                    </div>
+                    <div class="gallary_image">
+                        <img src="dessert5.jpg">
+                        <h3>Dessert</h3>
+                        <p> in addition to being a barometer for global gastronomic trends.</p>
+                            <a href="#" class="gallary_btn">Order Now</a>
+                        </div>
+                        
+                        <div class="gallary_image">
+                            <img src="dessert6.jpg">
+                            <h3>Dessert</h3>
+                            <p>in addition to being a barometer for global gastronomic trends.</p>
+                                <a href="#" class="gallary_btn">Order Now</a>
+                            </div>
+       </div>
+    </div>
+
+
+<!-- Review -->
+
+<div class="review" id="Review">
+    <h1>Best <span> Review</span></h1>
+    <div class="review_box">
+        <div class="review_card">
+            <div class="review_profile">
+                <img src="chef.jpg">
+            </div>
+
+            <div class="review_text">
+                <h2 class="name">Kayle Mount</h2>
+                <div class="review_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="review_social">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+
+                <p>Kayle Mount , in addition to being a barometer for global gastronomic trends. in addition to being a barometer for global gastronomic trends.
+                    in addition to being a barometer for global gastronomic trends.
+                    in addition to being a barometer for global gastronomic trends.
+                    in addition to being a barometer for global gastronomic trends.
+                </p>
+            </div>
+
+        </div>
+        <div class="review_card">
+            <div class="review_profile">
+                <img src="c5.jpg">
+            </div>
+
+            <div class="review_text">
+                <h2 class="name">patrice louis</h2>
+                <div class="review_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="review_social">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+
+                <p>Kayle Mount , in addition to being a barometer for global gastronomic trends. in addition to being a barometer for global gastronomic trends.
+                    in addition to being a barometer for global gastronomic trends.
+                    in addition to being a barometer for global gastronomic trends.
+                    in addition to being a barometer for global gastronomic trends.
+                </p>
+            </div>
+
+        </div>
+        <div class="review_card">
+            <div class="review_profile">
+                <img src="c4.jpg">
+            </div>
+
+            <div class="review_text">
+                <h2 class="name">roll deer</h2>
+                <div class="review_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="review_social">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+
+                <p>Kayle Mount , in addition to being a barometer for global gastronomic trends. in addition to being a barometer for global gastronomic trends.
+                    in addition to being a barometer for global gastronomic trends.
+                    in addition to being a barometer for global gastronomic trends.
+                    in addition to being a barometer for global gastronomic trends.
+                </p>
+            </div>
+
+        </div>
+        <div class="review_card">
+            <div class="review_profile">
+                <img src="c3.png">
+            </div>
+
+            <div class="review_text">
+                <h2 class="name">paul fee</h2>
+                <div class="review_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="review_social">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+
+                <p>Kayle Mount , in addition to being a barometer for global gastronomic trends. in addition to being a barometer for global gastronomic trends.
+                    in addition to being a barometer for global gastronomic trends.
+                    in addition to being a barometer for global gastronomic trends.
+                    in addition to being a barometer for global gastronomic trends.
+                </p>
+            </div>
+
+        </div>
+        <div class="review_card">
+            <div class="review_profile">
+                <img src="c2.jpg">
+            </div>
+
+            <div class="review_text">
+                <h2 class="name">emilie ops</h2>
+                <div class="review_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="review_social">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+
+                <p>Kayle Mount , in addition to being a barometer for global gastronomic trends. in addition to being a barometer for global gastronomic trends.
+                    in addition to being a barometer for global gastronomic trends.
+                    in addition to being a barometer for global gastronomic trends.
+                    in addition to being a barometer for global gastronomic trends.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Order -->
+<div class="order" id="Order">
+    <h1><span>Order</span>Now</h1>
+
+    <div class="order_main">
+        <div class="order_image">
+            <img src="logofooter.jpg">
+        </div>
+        <form action="#">
+
+            <div class="input">
+            <p>Name</p>
+            <input type="text" placeholder="Your Name">
+            </div>
+
+            <div class="input">
+                <p>Email</p>
+                <input type="email" placeholder="Your Email">
+                </div>
+                <div class="input">
+                    <p>Number</p>
+                    <input type="text" placeholder="Number Phone">
+                    </div>
+                    <div class="input">
+                        <p>Note</p>
+                        <input type="number" placeholder="Give a number">
+                        </div>
+                    <div class="input">
+                        <p>Your Order</p>
+                        <input placeholder="food name">
+                        </div>
+                        <div class="input">
+                            <p>Adress</p>
+                            <input  placeholder="Your Adress">
+                            </div>
+
+<a href="#" class="order_btn"> Order Now</a>
+
+        </form>
+    </div>
+</div>
+
 </body>
 </html>
